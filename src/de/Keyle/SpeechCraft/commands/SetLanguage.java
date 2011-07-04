@@ -1,18 +1,16 @@
 
-package com.dinnerbone.bukkit.scrap.commands;
+package de.Keyle.SpeechCraft.commands;
 
-import com.dinnerbone.bukkit.scrap.ScrapBukkit;
-import org.bukkit.ChatColor;
+import de.Keyle.SpeechCraft.SpeechCraft;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
-public class ClearPluginCommand implements CommandExecutor
+public class SetLanguage implements CommandExecutor
 {
 	private final SpeechCraft plugin;
 
-	public ClearPluginCommand(SpeechCraft plugin)
+	public SetLanguage(SpeechCraft plugin)
 	{
 		this.plugin = plugin;
 	}
@@ -21,7 +19,7 @@ public class ClearPluginCommand implements CommandExecutor
 	{
         if (args.length == 1)
         {
-        	sender.sendMessage("Set your language to " + args[0]));
+        	sender.sendMessage("Set your language to " + args[0]);
         }
         else
         {
