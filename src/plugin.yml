@@ -1,8 +1,9 @@
 name: SpeechCraft
 main: de.Keyle.SpeechCraft
 version: 0.0.1
-author: The Bukkit Team
+authors: [Keyle,xXLupoXx]
 description: A language API for Bukkit plugins.
+softdepend: [GroupManager, Permissions]
 commands:
   lang:
     description: Set your language.
