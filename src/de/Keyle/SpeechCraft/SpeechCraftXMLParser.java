@@ -18,8 +18,8 @@ public class SpeechCraftXMLParser {
 	Document dom;
 	Map<String,String> Lables = new HashMap<String,String>();
 	
-	public SpeechCraftXMLParser(){
-		parseXmlFile("employees.xml");
+	public SpeechCraftXMLParser(String FilePath){
+		parseXmlFile(FileName);
 		parseDocument();
 	}
 	
